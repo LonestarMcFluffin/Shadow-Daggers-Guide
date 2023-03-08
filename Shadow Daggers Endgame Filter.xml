@@ -1,9 +1,10 @@
-﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="utf-8"?>
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
   <name>Shadow Daggers Endgame Filter</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>5</filterIconColor>
   <description>0.9</description>
-  <lastModifiedInVersion>0.8.5f</lastModifiedInVersion>
+  <lastModifiedInVersion>0.9.0</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -103,8 +104,8 @@
             <int>59</int>
             <int>1</int>
             <int>507</int>
-            <int>63</int>
             <int>6</int>
+            <int>88</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>4</comparsionValue>
@@ -114,7 +115,7 @@
           <advanced>true</advanced>
         </Condition>
       </conditions>
-      <color>1</color>
+      <color>4</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -202,7 +203,7 @@
           <advanced>false</advanced>
         </Condition>
       </conditions>
-      <color>1</color>
+      <color>4</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -241,12 +242,6 @@
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>50</int>
-            <int>504</int>
-            <int>503</int>
-            <int>502</int>
-            <int>501</int>
-            <int>505</int>
             <int>63</int>
             <int>6</int>
             <int>56</int>
@@ -324,16 +319,20 @@
           <type>
             <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
           </type>
-          <subTypes />
+          <subTypes>
+            <int>9</int>
+            <int>10</int>
+          </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>50</int>
-            <int>504</int>
-            <int>503</int>
-            <int>502</int>
-            <int>501</int>
-            <int>505</int>
+            <int>63</int>
+            <int>6</int>
+            <int>57</int>
+            <int>56</int>
+            <int>86</int>
+            <int>428</int>
+            <int>91</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -347,7 +346,7 @@
         </Condition>
       </conditions>
       <color>0</color>
-      <isEnabled>false</isEnabled>
+      <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>50</minLvl>
       <maxLvl>101</maxLvl>
@@ -361,16 +360,20 @@
           <type>
             <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
           </type>
-          <subTypes />
+          <subTypes>
+            <int>9</int>
+            <int>10</int>
+          </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>50</int>
-            <int>504</int>
-            <int>503</int>
-            <int>502</int>
-            <int>501</int>
-            <int>505</int>
+            <int>63</int>
+            <int>6</int>
+            <int>57</int>
+            <int>56</int>
+            <int>86</int>
+            <int>428</int>
+            <int>91</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
@@ -384,86 +387,12 @@
         </Condition>
       </conditions>
       <color>0</color>
-      <isEnabled>false</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted 1H Swords (Strict)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>50</int>
-            <int>504</int>
-            <int>503</int>
-            <int>502</int>
-            <int>501</int>
-            <int>505</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>false</isEnabled>
+      <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>50</minLvl>
       <maxLvl>101</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>Wanted 1H Axes</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>50</int>
-            <int>504</int>
-            <int>503</int>
-            <int>502</int>
-            <int>501</int>
-            <int>505</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>3</minOnTheSameItem>
-          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>false</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted 1H Axes (Strict)</nameOverride>
+      <nameOverride>Wanted 1H Swords (Strict)</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -693,6 +622,7 @@
             <int>30</int>
             <int>59</int>
             <int>330</int>
+            <int>88</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>2</comparsionValue>
@@ -735,6 +665,7 @@
             <int>30</int>
             <int>59</int>
             <int>330</int>
+            <int>88</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
@@ -784,6 +715,7 @@
             <int>1</int>
             <int>59</int>
             <int>80</int>
+            <int>92</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>2</comparsionValue>
