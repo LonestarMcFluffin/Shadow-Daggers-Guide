@@ -391,7 +391,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>50</minLvl>
       <maxLvl>101</maxLvl>
-      <emphasized>false</emphasized>
+      <emphasized>true</emphasized>
       <nameOverride>Wanted 1H Swords (Strict)</nameOverride>
     </Rule>
     <Rule>
